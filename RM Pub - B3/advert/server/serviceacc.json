@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "radiomars-389217",
+  "private_key_id": "eacb69ec2e58c687e737257c17aacd681e447f99",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6cdLHfzki7MfL\npGWMCGKj3LOw7IIF97pIlp3DaN55JZXC373OcGnSfC4AAHcV7I9hVy+LnoGE9sug\nZ/DRX/mFJmGnqN413fDFHKGj0ExUxp9gnBB9h0Wjzr5b8uJClnJylLcz5zx2UFk6\nz1llsJ5GphVBxKsD5jcd2tDhgwS9iMk9EmLJ+4Bl23tf6Xyl8cCIuzGeEBXstR7a\npp0lkTyjxVXe/IDpbzZPFg6h6oFf6IHTFFLTGMFM8wx9P4Wxj7/Y57ZSARzh1EYi\nZ3FP5SkYbnAlO5lrWbPLAgK25X+jFnA7KOgQdWLf13h9ABaD7U5T4AaxGEzUQggM\n4Wmr+hT1AgMBAAECggEABWSXdo0ih5/BDmM8oLakC8itgJecEd90NEykVuuooRPK\nPNnLRrZlCTaYVLMEFCPvPcnk0S1jjQdfz82nNJc0biU0ZpdxiK4DxzUoeRw5qQDE\ndBSaPCyhLLd6ismqwRxS8SeGE7/uNXSQ2tehPATGKer8lcDCOu76IdNGKXpoX7G8\nL0+vtJCX2dWl24gMWQ44XPmYzUQTe6yTMHoq5QbgjsfP0gr2Rdz9kB7aRuzUhlpJ\nsn3grldEKhz3w1rCKyCLHVlf6ILFtibVwMS5Mv+1BqGb/LQR5cGffQpd0Obk1fg8\nEQX2y5iL+12R1hjVXuIEYW7jfqqjBhAD+YnkkUQWfQKBgQDtKWbJZ7jK5zhz9dRG\ngMb8PzepSxKtRUHGgzj5ylWsBxS/D3N2zEPr7GDQzx2Wwv6LM3cGRNUmQrIAKij+\n6f5zahrjNK64xox4UitQfs79lr/xMSUwMg2kH+pesTC0FyPV3OK/zpwAhXXIW/us\nICC7cqdB48ttgjW3KHp7sl2+uwKBgQDJQRuYFukHLx47P1TVe+yW7kYeBHSNYAEG\nitUIQO4D5YTjch0YllvZYhEQNVLdfSieEFgh/LFftEH3FDjB2showwCDF+sNPOxB\npTntRGHtQA3YFfnhZGVqpNrYSx0KRVrOxp1UqAgqrnCmlfc1Q/dY7gPAObk4Wwu5\nys5zG5k4DwKBgHYoxnlaIAuXn9zGgfiOeJV8ubKzIJ8LfnX1MxHg6UZIUOHQROrP\nYpfMsX/XcRqIFGIuRgLtkHT7jcvfNYWr94ZxOuwwd0zAP4RDDCmSxHY8AW2d2rVk\ner9m11JOXcGcNdJ7ts1xlu/7jm9AxOdBKo251fNSFyx8T17t3/h5KZO5AoGBAJQK\nIJIvyBpQvpw2aeDf15jujQVnoZSdGiQF287GdE7JdocYWe7MK6QsTwDtOJdUiZw7\nyZi2mIMdxahKZ7WxidoGF0pXPb/vIJrpP0MZGi+6/nQFNlplz3Qy8AhKuIHlonaY\nAwNS1y8OQi9IASBdboUsD/ZGf8jEsEtqs5JYqsxhAoGAMVvEXxKieH5p/NMNkHDq\nLvBV0koa+nJPuVCnVch8MfJM5zHjTm1hv+XYxUdcv50stBxQGfxRO7D6+N16au1U\njtDMD52GQboUGECyyS0y6teHUdf0rgOiqTFOji5CfxtLzmxtuOum73BUtor1VJTN\nYaIc13Zmis1osTlkN5ajvdU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ttssa-37@radiomars-389217.iam.gserviceaccount.com",
+  "client_id": "110545926688673460143",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ttssa-37%40radiomars-389217.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

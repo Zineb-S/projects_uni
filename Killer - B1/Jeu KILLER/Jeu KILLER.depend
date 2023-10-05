@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1619391471 source:c:\users\admin\desktop\zineb selmouni -oussama ettalali - aboubakre ouazzane -ziad rma\jeu killer\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+	<ctype.h>
+
