@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/cardview_dark_background"
+    app:cardElevation="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/AnswerInput"
+            android:layout_width="355dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/gradeText"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Appreciation :"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/gradeText"
+            app:layout_constraintHorizontal_bias="0.398"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/gradeText"
+            android:layout_width="260dp"
+            android:layout_height="31dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView16"
+            app:layout_constraintEnd_toEndOf="@+id/profNameText"
+            app:layout_constraintStart_toStartOf="@+id/profNameText"
+            app:layout_constraintTop_toTopOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="Grade :"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView15"
+            app:layout_constraintHorizontal_bias="0.72"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/profNameText"
+            android:layout_width="260dp"
+            android:layout_height="31dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView15"
+            app:layout_constraintEnd_toEndOf="@+id/QuestionNameText"
+            app:layout_constraintStart_toStartOf="@+id/QuestionNameText"
+            app:layout_constraintTop_toTopOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Professor :"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/Label"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toStartOf="@+id/Label"
+            app:layout_constraintTop_toBottomOf="@+id/Label" />
+
+        <TextView
+            android:id="@+id/QuestionNameText"
+            android:layout_width="260dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="36dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/Label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Label"
+            app:layout_constraintTop_toTopOf="@+id/Label" />
+
+        <TextView
+            android:id="@+id/Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:text="Subject :"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+

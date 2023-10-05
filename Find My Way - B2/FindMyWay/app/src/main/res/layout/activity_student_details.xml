@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.student_details">
+
+    <Button
+        android:id="@+id/editGradeButton"
+        android:layout_width="196dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="76dp"
+        android:text="Edit Grade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/ViewGradesButton"
+        android:layout_width="198dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:text="View Grades"
+        app:layout_constraintEnd_toEndOf="@+id/editGradeButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editGradeButton"
+        app:layout_constraintTop_toBottomOf="@+id/editGradeButton" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="207dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/c9e3e810a8066b885ca4e882460785fa"
+        tools:srcCompat="@drawable/c9e3e810a8066b885ca4e882460785fa" />
+
+    <TextView
+        android:id="@+id/studentNameLabel"
+        android:layout_width="240dp"
+        android:layout_height="19dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/textView13"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="68dp"
+        android:text="Student :"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/studentsListBtn"
+        android:layout_width="286dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="32dp"
+        android:text="Students List"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewGradesButton"
+        app:layout_constraintVertical_bias="0.939" />
+</androidx.constraintlayout.widget.ConstraintLayout>
